@@ -1,0 +1,79 @@
+/* header part  */
+.header{
+    background: #F5F5F5;
+}
+.logo-header a{
+    text-decoration: none;
+}
+.logo-header h3{
+    margin-top: 10px;
+}
+.primary-menu{}
+.primary-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    transition: .5s;
+}
+.primary-menu ul li a:hover{
+    background: #eccc68;
+    color: #dddddd;
+    border-radius: 5px;
+}
+/* banner part  */
+.banner{
+    background-image: url(./images/max-bender-XIVDN9cxOVc-unsplash.jpg);
+    padding: 200px 0;
+    background-size: cover;
+}
+.banner-text{
+    color: #ffff;
+}
+
+/* content section */
+.content{
+    background: #F5F5F5;
+    padding-top: 50px;
+}
+.image-part{
+    text-align: left;
+}
+.image-part img{
+    width: 200px;
+    height: auto;
+}
+.profile{
+    text-align: left;
+    padding-left: 72px;
+}
+.text{
+    margin-top: 20px;
+}
+.about .p-3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+}
+
+/* contact section  */
+
+.contact{
+    background: #F5F5F5;
+}
+/* footer section  */
+.footer{
+    background-color: #0062D3;
+    color: #ffffff;
+}
+.footer .copy{
+    padding-top: 20px;
+}
+.footer p{
+    line-height: 10px;
+}
